@@ -1,4 +1,6 @@
 @import url("cartao.css");
+@import url("cabecalho.css");
+
 * {
     font-family: "Segoe UI", Arial, sans-serif;
     font-size: 16px;
@@ -12,15 +14,6 @@ body {
     flex-direction: column;
 }
 
-header {
-    /* border: 0.1rem solid red; */
-    height: 2rem;
-    background-color: #252523;
-    color: #eee;
-    /* justify-content: center; */
-    align-content: center;
-    align-items: center;
-}
 
 section {
     /* border: .1rem solid blue; */
@@ -46,7 +39,7 @@ footer {
     height: 2rem;
     background-color: #252523;
     color: #eee;
-        /* justify-content: center; */
+    /* justify-content: center; */
     align-content: center;
     align-items: center;
 }
