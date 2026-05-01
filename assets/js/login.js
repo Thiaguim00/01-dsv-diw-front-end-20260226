@@ -9,7 +9,7 @@ function verificarcredenciais() {
         alert("Email correto!");
         if (senhaInput === senha) {
             alert("Login bem-sucedido!");
-            window.location.href = "index.html";
+            window.location.href = "home.html";
         } else
             alert("Senha incorreta!");
     } else
